@@ -82,9 +82,6 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
        <div class="w3-display-container">
         <img src="/images/jeans1.jpg" style="width:100%">
          <span class="w3-tag w3-display-topleft w3-text-red">Agotado</span>
-         <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button">Comprar ahora<i class="fa fa-shopping-cart"></i></button>
-          </div>
           </div>
         <p>Ripped Skinny Calza<br><b>$245.99</b></p>
       </div>
@@ -155,8 +152,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         <p>Vintage Skinny Calza<br><b>$140.99</b></p>
       </div>
       <div class="w3-container">
+      <div class="w3-display-container">
         <img src="/images/jeans1.jpg" style="width:100%">
-        <div class="w3-display-container">
         <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
