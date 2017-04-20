@@ -81,10 +81,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <div class="w3-container">
         <div class="w3-display-container">
           <img src="/images/jeans1.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Nuevo</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
-          </div>
+          <span class="w3-tag w3-display-topleft w3-text-red">Agotado</span>
         </div>
         <p>Mega Ripped Calza<br><b>$190.99</b></p>
       </div>
@@ -96,7 +93,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Calza<br><b>$190.99</b></p>
+        <p>Mega Ripped Calza<br><b>$230.99</b></p>
       </div>
     </div>
 
@@ -109,7 +106,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Calza<br><b>$190.99</b></p>
+        <p>Mega Ripped Calza<br><b>$250.99</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-container">
@@ -150,22 +147,20 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <div class="w3-container">
         <div class="w3-display-container">
           <img src="/images/jeans1.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Nuevo</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Calza<br><b>$190.99</b></p>
+        <p>Mega Ripped Calza<br><b>$200.99</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
           <img src="/images/jeans1.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Nuevo</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Calza<br><b>$190.99</b></p>
+        <p>Mega Ripped Calza<br><b>$205.99</b></p>
       </div>
     </div>
   </div>
@@ -185,7 +180,16 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         </form>
       </div>
     <div >
-      
+      <div class="w3-col s4">
+        <h4>Info</h4>
+        <p><a href="#">Acerca de nosotros</a></p>
+        <p><a href="#">Realizamos liquidaciones</a></p>
+        <p><a href="#">Nuestro local</a></p>
+        <p><a href="#">Env&iacute;os</a></p>
+        <p><a href="#">Pagos</a></p>
+        <p><a href="#">Gift card</a></p>
+        <p><a href="#">Ayuda</a></p>
+      </div>
       <div class="w3-col s4 w3-justify">
         <h4>Store</h4>
         <p><i class="fa fa-fw fa-map-marker"></i> Bakht</p>
