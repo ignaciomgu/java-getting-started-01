@@ -88,7 +88,6 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <div class="w3-container">
         <div class="w3-display-container">
           <img src="/images/jeans2.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Nuevo</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
@@ -116,7 +115,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Washed Skinny Calza<br><b>$200.50</b></p>
+        <p>Washed Skinny Calza<br><b>$300.50</b></p>
       </div>
       </div>
     </div>
@@ -132,34 +131,36 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="/images/jeans4.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Oferta</span>
+          <img src="/images/jeans2.jpg" style="width:100%">
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Vintage Skinny Calza<br><b class="w3-text-red">$144.99</b></p>
+        <p>Mega Ripped Calza<br><b class="w3-text-red">$230.99</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="/images/jeans2.jpg" style="width:100%">
+          <img src="/images/jeans3.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Oferta</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Calza<br><b>$200.99</b></p>
+        <p>Mega Ripped Calza<br><b>$270.99</b></p>
       </div>
       <div class="w3-container">
+        <div class="w3-container">
         <div class="w3-display-container">
-          <img src="/images/jeans3.jpg" style="width:100%">
+          <img src="/images/jeans4.jpg" style="width:100%">
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Calza<br><b>$205.99</b></p>
+        <p>Washed Skinny Calza<br><b>$215.50</b></p>
+      </div>
       </div>
     </div>
   </div>
