@@ -79,12 +79,24 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <div class="w3-row w3-grayscale">
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/images/jeans1.jpg" style="width:100%">
-        <p>Ripped Skinny Calzas<br><b>$240.99</b></p>
+        <div class="w3-display-container">
+          <img src="/images/jeans1.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Nuevo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Calza<br><b>$190.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/images/jeans2.jpg" style="width:100%">
-        <p>Mega Ripped Calzas<br><b>$190.99</b></p>
+        <div class="w3-display-container">
+          <img src="/images/jeans1.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Nuevo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Calza<br><b>$190.99</b></p>
       </div>
     </div>
 
@@ -136,12 +148,24 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/images/jeans4.jpg" style="width:100%">
-        <p>Vintage Skinny Calza<br><b>$140.99</b></p>
+        <div class="w3-display-container">
+          <img src="/images/jeans1.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Nuevo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Calza<br><b>$190.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/images/jeans1.jpg" style="width:100%">
-        <p>Ripped Skinny Calza<br><b>$204.99</b></p>
+        <div class="w3-display-container">
+          <img src="/images/jeans1.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Nuevo</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Calza<br><b>$190.99</b></p>
       </div>
     </div>
   </div>
