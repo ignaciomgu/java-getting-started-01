@@ -80,10 +80,16 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/jeans1.jpg" style="width:100%">
+         <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
         <p>Ripped Skinny Calzas<br><b>$240.99</b></p>
       </div>
       <div class="w3-container">
         <img src="/images/jeans2.jpg" style="width:100%">
+         <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
         <p>Mega Ripped Calzas<br><b>$190.99</b></p>
       </div>
     </div>
@@ -101,6 +107,9 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
       <div class="w3-container">
         <img src="/images/jeans3.jpg" style="width:100%">
+         <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
         <p>Washed Skinny Calza<br><b>$200.50</b></p>
       </div>
     </div>
@@ -108,12 +117,15 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/jeans3.jpg" style="width:100%">
+         <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
         <p>Washed Skinny Calza<br><b>$200.50</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
           <img src="/images/jeans4.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Compra</span>
+          <span class="w3-tag w3-display-topleft">Oferta</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
           </div>
@@ -125,10 +137,16 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/jeans4.jpg" style="width:100%">
+         <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
         <p>Vintage Skinny Calza<br><b>$140.99</b></p>
       </div>
       <div class="w3-container">
         <img src="/images/jeans1.jpg" style="width:100%">
+         <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Comprar ahora <i class="fa fa-shopping-cart"></i></button>
+          </div>
         <p>Ripped Skinny Calza<br><b>$204.99</b></p>
       </div>
     </div>
@@ -153,13 +171,13 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <div >
         
       </div>
-      
+
       <div class="w3-col s4 w3-justify">
-        <h4>Store</h4>
+        <h4>     Store</h4>
         <p><i class="fa fa-fw fa-map-marker"></i> Bakht</p>
         <p><i class="fa fa-fw fa-phone"></i> +54 11 64252755</p>
         <p><i class="fa fa-fw fa-envelope"></i> meryv_18@hotmail.com</p>
-        <h4>Aceptamos</h4>
+        <h4>Aceptamos    </h4>
         <p><i class="fa fa-fw fa-cc-amex"></i> D&eacute;bito</p>
         <p><i class="fa fa-fw fa-credit-card"></i> Tarjeta de Cr&eacute;dito</p>
         <br>
