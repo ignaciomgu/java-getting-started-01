@@ -72,11 +72,22 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   </div>
 
   <div class="w3-container w3-text-grey" id="jeans">
-    <p>4 Productos</p>
+    <p>8 Productos</p>
   </div>
 
   <!-- Product grid -->
-  
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/images/jeans1.jpg" style="width:100%">
+        <p>Ripped Skinny Calzas<br><b>$240.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/images/jeans2.jpg" style="width:100%">
+        <p>Mega Ripped Calzas<br><b>$190.99</b></p>
+      </div>
+    </div>
+
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
@@ -123,6 +134,17 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
     </div>
 
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/images/jeans4.jpg" style="width:100%">
+        <p>Vintage Skinny Calza<br><b>$140.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/images/jeans1.jpg" style="width:100%">
+        <p>Ripped Skinny Calza<br><b>$204.99</b></p>
+      </div>
+    </div>
+  </div>
   
   <!-- Footer -->
   <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
@@ -139,7 +161,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         </form>
       </div>
     <div >
-
+      
       <div class="w3-col s4 w3-justify">
         <h4>Store</h4>
         <p><i class="fa fa-fw fa-map-marker"></i> Bakht</p>
