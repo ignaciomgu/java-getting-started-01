@@ -148,15 +148,20 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
           <button type="submit" class="w3-button w3-block w3-black">Enviar</button>
         </form>
       </div>
-
+     
+      <div >
+      <div >
+        
+      </div>
+      
       <div class="w3-col s4 w3-justify">
         <h4>Store</h4>
         <p><i class="fa fa-fw fa-map-marker"></i> Bakht</p>
         <p><i class="fa fa-fw fa-phone"></i> +54 11 64252755</p>
         <p><i class="fa fa-fw fa-envelope"></i> meryv_18@hotmail.com</p>
         <h4>Aceptamos</h4>
-        <p><i class="fa fa-fw fa-cc-amex"></i> Débito</p>
-        <p><i class="fa fa-fw fa-credit-card"></i> Tarjeta de Crédito</p>
+        <p><i class="fa fa-fw fa-cc-amex"></i> D&eacute;bito</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Tarjeta de Cr&eacute;dito</p>
         <br>
         <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
         <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
