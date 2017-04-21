@@ -8,9 +8,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
-body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif; }
+a {
+  transition : background-color 0.3s ease-in-out;
+}
 </style>
 <body class="w3-content" style="max-width:1200px">
 
@@ -21,19 +26,19 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <h3 class="w3-wide"><b>Bakht</b></h3>
   </div>
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="/hello" class="w3-bar-item w3-button">Home</a>
     <a href="#" class="w3-bar-item w3-button">Acerca de Nosotros</a>
-    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
-      Calzas <i class="fa fa-caret-down"></i>
+    <a onclick="myAccFunc(this)" href="#" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Calzas <i class="fa fa-caret-down" style = "transition : all 0.3s ease-in-out"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
-      <a href="#" class="w3-bar-item w3-button">Relaxed</a>
-      <a href="#" class="w3-bar-item w3-button">Bootcut</a>
-      <a href="#" class="w3-bar-item w3-button">Straight</a>
+      <a onclick="selectTypeOfCalza(this)" href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Invierno 2017</a>
+      <a onclick="selectTypeOfCalza(this)" href="#" class="w3-bar-item w3-button">Oto&ntilde;o 2016</a>
+      <a onclick="selectTypeOfCalza(this)" href="#" class="w3-bar-item w3-button">Invierno 2016</a>
+      <a onclick="selectTypeOfCalza(this)" href="#" class="w3-bar-item w3-button">Primavera 2016</a>
     </div>
   </div>
-  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contactanos</a> 
 </nav>
 
 <!-- Top menu on small screens -->
@@ -56,7 +61,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <p class="w3-left">Calzas</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right"></i>
-      <i class="fa fa-search"></i>
+     <!-- <i class="fa fa-search"></i>-->
     </p>
   </header>
 
@@ -190,7 +195,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
       <div class="w3-col s4 w3-justify">
         <h4>Store</h4>
-        <p><i class="fa fa-fw fa-map-marker"></i> Bakht</p>
+        <a href="https://www.google.com.ar/maps/place/Blanco+Encalada+1980,+C1428DDD+CABA/@-34.5568322,-58.4573091,17z/data=!3m1!4b1!4m8!1m2!2m1!1sblanco+encalad+1980!3m4!1s0x95bcb42cfb19bfcd:0x1f2ac296c304dec4!8m2!3d-34.5568322!4d-58.4551204" ><p> <i class="fa fa-fw fa-map-marker"></i> Bakht</p></a>
         <p><i class="fa fa-fw fa-phone"></i> +54 11 64252755</p>
         <p><i class="fa fa-fw fa-envelope"></i> meryv_18@hotmail.com</p>
         <h4>Aceptamos</h4>
@@ -207,7 +212,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     </div>
   </footer>
 
-  <div class="w3-black w3-center w3-padding-24">Hecho por <a href="https://ignaciogallardocv.herokuapp.com/" title="CV Ing. Ignacio Gallardo" target="_blank" class="w3-hover-opacity">Ing. Ignacio Gallardo</a></div>
+  <div class="w3-black w3-center w3-padding-24">Hecho por <a href="https://ignaciogallardocv.herokuapp.com/" title="CV Ing. Ignacio Gallardo" target="_blank" class="w3-hover-opacity">Ignacio Gallardo</a></div>
 
   <!-- End page content -->
 </div>
@@ -224,13 +229,15 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 <script>
 // Accordion 
-function myAccFunc() {
+function myAccFunc(elemento) {
     var x = document.getElementById("demoAcc");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
+    $(elemento).find("i").toggleClass("fa-caret-right");
+    $(elemento).find("i").toggleClass("fa-caret-down");
 }
 
 // Click on the "Jeans" link on page load to open the accordion for demo purposes
@@ -246,6 +253,19 @@ function w3_open() {
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+function selectTypeOfCalza(elemento){
+  let parent = $(elemento).parent();
+  let seleccionado = parent.find(".w3-light-grey");
+  seleccionado.removeClass("w3-light-grey");
+  seleccionado.find("i").remove();
+  $(elemento).addClass("w3-light-grey");
+  $(elemento).prepend('<i class="fa fa-caret-right w3-margin-right"></i>');
 }
 </script>
 
